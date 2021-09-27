@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 """
 @author : wang bq
-@email  : wangbingqian@boe.com.cn
+@email  : 
 @time   :20-11-27 上午11:42
 @IDE    :PyCharm
 @document   :inference2.py
