@@ -6,8 +6,9 @@
 从文本中抽取出实体、实体类型、以及实体之间的关系，一般称为SPO(S:主语, P:宾语, O:谓语)三元组抽取
 其中主语和宾语为两个实体，宾语为两个实体之间的关系
 
-输入：《隐秘而伟大》是由王伟执导，李易峰、金晨、王泷正、牛骏峰领衔主演，王小毅、李强等主演的年代剧。
-输出：{'spo_list': [{'source': '李易峰', 'source_type': '人物', 'name': '主演', 'target': '隐秘而伟大', 'target_type': '影视作品'},
+* 输入：《隐秘而伟大》是由王伟执导，李易峰、金晨、王泷正、牛骏峰领衔主演，王小毅、李强等主演的年代剧。
+* 输出：
+      {'spo_list': [{'source': '李易峰', 'source_type': '人物', 'name': '主演', 'target': '隐秘而伟大', 'target_type': '影视作品'},
       {'source': '李强', 'source_type': '人物', 'name': '主演', 'target': '隐秘而伟大', 'target_type': '影视作品'}, 
       {'source': '王伟', 'source_type': '人物', 'name': '导演', 'target': '隐秘而伟大', 'target_type': '影视作品'}, 
       {'source': '牛骏峰', 'source_type': '人物', 'name': '主演', 'target': '隐秘而伟大', 'target_type': '影视作品'}, 
